@@ -10,5 +10,6 @@ export default defineConfig({
       plugins: [tailwindcss()],
   },
   site: 'https://jamesdev292.github.io/my-portfolio/',
+  base: "/my-portfolio/",
   integrations: [react()]
 });
